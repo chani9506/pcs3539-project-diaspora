@@ -74,4 +74,1978 @@ LogPluginManager: Mounting plugin AndroidMoviePlayer
 LogPluginManager: Mounting plugin AndroidPermission
 LogPluginManager: Mounting plugin AppleMoviePlayer
 LogPluginManager: Mounting plugin ArchVisCharacter
-LogPlu
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.079s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7600 CPU @ 3.50GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.05.07-22.43.41:149][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.07-22.43.41:149][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.07-22.43.41:155][  0]LogHAL: Display: Platform has ~ 8 GB [8504913920 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.07-22.43.41:155][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.05.07-22.43.41:155][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.07-22.43.41:156][  0]LogInit: Computer: LABSOFT11
+[2019.05.07-22.43.41:156][  0]LogInit: User: aluno
+[2019.05.07-22.43.41:156][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.07-22.43.41:156][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.05.07-22.43.41:156][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.05.07-22.43.41:156][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.07-22.43.41:156][  0]LogMemory: Process Physical Memory: 99.37 MB used, 99.37 MB peak
+[2019.05.07-22.43.41:156][  0]LogMemory: Process Virtual Memory: 82.67 MB used, 82.67 MB peak
+[2019.05.07-22.43.41:156][  0]LogMemory: Physical Memory: 3388.52 MB used,  4722.40 MB free, 8110.92 MB total
+[2019.05.07-22.43.41:156][  0]LogMemory: Virtual Memory: 4621.24 MB used,  4722.40 MB free, 134217728.00 MB total
+[2019.05.07-22.43.41:166][  0]LogInit: Using OS detected language (ko-KR).
+[2019.05.07-22.43.41:166][  0]LogInit: Using OS detected locale (pt-BR).
+[2019.05.07-22.43.41:167][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2019.05.07-22.43.41:459][  0]LogStreaming: Display: Took  0.293s to InitEngineTextLocalization.
+[2019.05.07-22.43.41:459][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.07-22.43.41:497][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.07-22.43.41:497][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.07-22.43.41:636][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.07-22.43.41:636][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.07-22.43.41:649][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.05.07-22.43.41:649][  0]LogD3D11RHI:       128/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.05.07-22.43.41:650][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.07-22.43.41:650][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.07-22.43.41:651][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.07-22.43.41:655][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.07-22.43.41:655][  0]LogD3D11RHI:     GPU DeviceId: 0x5912 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.07-22.43.41:655][  0]LogWindows: EnumDisplayDevices:
+[2019.05.07-22.43.41:655][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.05.07-22.43.41:655][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.05.07-22.43.41:655][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.05.07-22.43.41:655][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.05.07-22.43.41:655][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 630
+[2019.05.07-22.43.41:655][  0]LogD3D11RHI:   Driver Version: 25.20.100.6373 (internal:25.20.100.6373, unified:25.20.100.6373)
+[2019.05.07-22.43.41:655][  0]LogD3D11RHI:      Driver Date: 11-18-2018
+[2019.05.07-22.43.41:655][  0]LogRHI: Texture pool is 1509 MB (70% of 2155 MB)
+[2019.05.07-22.43.41:665][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.07-22.43.41:670][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2019.05.07-22.43.41:671][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Intermediate/Shaders/WorkingDirectory/3836/).
+[2019.05.07-22.43.41:671][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aluno/AppData/Local/Temp/UnrealShaderWorkingDir/6E1D7357476639211AA069A4C8AAE1E0/'.
+[2019.05.07-22.43.41:827][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.07-22.43.41:838][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.07-22.43.41:849][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.07-22.43.41:860][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.07-22.43.41:871][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.07-22.43.41:883][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.07-22.43.41:894][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.07-22.43.41:905][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.07-22.43.41:911][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:975][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.07-22.43.41:976][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.07-22.43.42:031][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.07-22.43.42:031][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.07-22.43.42:050][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.07-22.43.42:050][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.07-22.43.42:061][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.07-22.43.42:071][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.07-22.43.42:081][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.07-22.43.42:091][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.07-22.43.42:099][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.07-22.43.42:099][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.07-22.43.42:146][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.07-22.43.42:146][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.07-22.43.42:146][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.07-22.43.42:837][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.07-22.43.42:887][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/aluno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.05.07-22.43.42:888][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aluno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.05.07-22.43.42:888][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.07-22.43.42:888][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.07-22.43.42:888][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.07-22.43.42:888][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.07-22.43.42:900][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.07-22.43.42:912][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aluno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.07-22.43.42:912][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.07-22.43.42:912][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.07-22.43.42:927][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.07-22.43.42:928][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.07-22.43.42:928][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.07-22.43.42:990][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2019.05.07-22.43.43:240][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.07-22.43.43:346][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.07-22.43.43:349][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.07-22.43.43:349][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.07-22.43.43:349][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.07-22.43.43:349][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.07-22.43.43:365][  0]LogNetVersion: diaspora 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3376199667)
+[2019.05.07-22.43.43:779][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.065633 seconds
+[2019.05.07-22.43.43:785][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.05.07-22.43.43:785][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.05.07-22.43.43:785][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.07-22.43.44:245][  0]LogWmfMedia: Failed to load mf.dll
+[2019.05.07-22.43.44:245][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2019.05.07-22.43.44:246][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2019.05.07-22.43.44:247][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2019.05.07-22.43.44:247][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2019.05.07-22.43.44:429][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.07-22.43.44:441][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.07-22.43.44:566][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.07-22.43.44:567][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.07-22.43.44:567][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.07-22.43.44:568][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.07-22.43.44:723][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.07-22.43.44:766][  0]LogOcInput: OculusInput pre-init called
+[2019.05.07-22.43.44:816][  0]LogEngine: Initializing Engine...
+[2019.05.07-22.43.44:817][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.07-22.43.44:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.07-22.43.44:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.07-22.43.44:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.07-22.43.44:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.07-22.43.44:997][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.07-22.43.45:014][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.07-22.43.45:022][  0]LogInit: XAudio2 using 'Realtek Digital Output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.07-22.43.45:071][  0]LogInit: FAudioDevice initialized.
+[2019.05.07-22.43.45:071][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.07-22.43.45:213][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/aluno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.05.07-22.43.45:222][  0]LogInit: Texture streaming: Enabled
+[2019.05.07-22.43.45:235][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.07-22.43.45:242][  0]LogInit: Transaction tracking system initialized
+[2019.05.07-22.43.45:260][  0]BlueprintLog: New page: 에디터 로드
+[2019.05.07-22.43.45:324][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.05.07-22.43.45:541][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.07-22.43.45:541][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.07-22.43.45:541][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.07-22.43.45:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.07-22.43.45:541][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Content/' took 0.01s
+[2019.05.07-22.43.45:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.07-22.43.45:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.07-22.43.45:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.07-22.43.45:633][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.07-22.43.45:633][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.07-22.43.45:634][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.07-22.43.45:636][  0]MapCheck: New page: 맵 체크
+[2019.05.07-22.43.45:636][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.07-22.43.45:800][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.05.07-22.43.45:806][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.07-22.43.45:827][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.07-22.43.45:875][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 47,93ms.
+[2019.05.07-22.43.45:875][  0]LogFileHelpers: Loading map 'Template_Default' took 0.241
+[2019.05.07-22.43.45:955][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.07-22.43.45:961][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.07-22.43.45:967][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.07-22.43.45:973][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.07-22.43.45:978][  0]LogCollectionManager: Loaded 0 collections in 0.001463 seconds
+[2019.05.07-22.43.46:018][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/Collections/' took 0.01s
+[2019.05.07-22.43.46:018][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Content/Developers/aluno/Collections/' took 0.01s
+[2019.05.07-22.43.46:018][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Content/Collections/' took 0.01s
+[2019.05.07-22.43.46:018][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.05.07-22.43.46:026][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2572 classes and 603 folders.
+[2019.05.07-22.43.46:031][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.05.07-22.43.46:062][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.05.07-22.43.46:066][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.05.07-22.43.46:078][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.07-22.43.46:080][  0]LogSlate: Took 0.002282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.07-22.43.46:083][  0]LogSlate: Took 0.002049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.05.07-22.43.46:083][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.07-22.43.46:089][  0]LogSlate: Took 0.001062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.07-22.43.46:154][  0]LogRenderer: Reallocating scene render targets to support 744x456 Format 10 NumSamples 1 (Frame:1).
+[2019.05.07-22.43.46:883][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.05.07-22.43.46:883][  0]LogLoad: (Engine Initialization) Total time: 6.91 seconds
+[2019.05.07-22.43.46:883][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.07-22.43.46:912][  0]LogAssetRegistry: Asset discovery search completed in 3.9443 seconds
+[2019.05.07-22.43.46:914][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.07-22.43.46:914][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2019.05.07-22.43.46:915][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.07-22.43.46:929][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.07-22.43.52:625][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.43.57:842][455]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.07-22.43.57:873][455]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2019.05.07-22.44.03:331][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.44.03:640][693]LogActorFactory: Actor Factory created earth_Icosphere
+[2019.05.07-22.44.03:655][694]LogSlate: Took 0.003139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.07-22.44.04:596][728]LogActorFactory: Actor Factory created earth_Icosphere
+[2019.05.07-22.44.05:850][771]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.44.05:939][777]MapCheck: New page: 맵 체크
+[2019.05.07-22.44.05:955][777]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.44.05:955][777]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.44.05:997][777]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.44.06:004][777]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.44.06:009][777]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.44.06:014][777]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.44.06:014][777]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.44.06:014][777]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.44.06:019][777]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.44.06:019][777]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.44.06:025][777]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.44.06:532][777]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.44.06:532][777]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.44.06:532][777]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.44.06:532][777]TextureStreamingBuild: Display: Compiling optional shaders took 0.540 seconds.
+[2019.05.07-22.44.06:546][777]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-22.44.06:551][777]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-22.44.06:569][777]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:44:06
+[2019.05.07-22.44.06:598][777]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.44.06:633][777]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.44.06:644][777]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.44.07:151][777]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.44.07:151][777]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.44.09:271][777]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.44.09:271][777]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.44.09:271][777]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.44.09:271][777]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.44.09:271][777]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.44.09:271][777]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.44.09:422][777]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.44.09:422][777]MapCheck: New page: Untitled_1 - 07/05/2019 16:44:09
+[2019.05.07-22.44.09:422][777]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-22.44.09:473][777]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 51,327ms.
+[2019.05.07-22.44.09:496][777]LogEditorBuildUtils: Build time 0:03
+[2019.05.07-22.44.10:965][814]Job is a success!
+[2019.05.07-22.44.11:032][815]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.07-22.44.11:069][815]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2019.05.07-22.44.11:069][815]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.44.11:069][815]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-22.44.11:069][815]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.44.11:069][815]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-22.44.11:069][815]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-22.44.11:069][815]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-22.44.11:087][815]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2019.05.07-22.44.11:087][815]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2019.05.07-22.44.11:087][815]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.05.07-22.44.11:087][815]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.05.07-22.44.11:087][815]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_0 (G8, 32X32)
+[2019.05.07-22.44.11:109][815]Lightmass on LABSOFT11: 823 ms total, 210 ms importing, 12 ms setup, 178 ms photons, 405 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.58 sec total, 171 ms processing.
+[2019.05.07-22.44.11:139][815]LogStaticLightingSystem: Illumination: 4.51 sec (7 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-22.44.11:139][815]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.44.11:139][815]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-22.44.11:273][815]DumpUnbuiltLightIteractions
+[2019.05.07-22.44.11:273][815]Lights with unbuilt interactions: 0
+[2019.05.07-22.44.11:273][815]
+[2019.05.07-22.44.11:273][815]Primitives with unbuilt interactions: 0
+[2019.05.07-22.44.11:422][816]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.44.11:423][816]MapCheck: New page: Untitled_1 - 07/05/2019 16:44:11
+[2019.05.07-22.44.11:475][816]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 52,164ms.
+[2019.05.07-22.44.12:938][907]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.44.12:950][907]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.44.24:246][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.44.24:297][335]MapCheck: New page: 맵 체크
+[2019.05.07-22.44.24:313][335]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.44.24:313][335]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.44.24:345][335]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.44.24:350][335]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.44.24:355][335]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.44.24:360][335]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.44.24:361][335]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.44.24:361][335]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.44.24:361][335]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.44.24:366][335]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.44.24:371][335]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.44.24:648][335]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.44.24:648][335]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.44.24:648][335]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.44.24:648][335]TextureStreamingBuild: Display: Compiling optional shaders took 0.305 seconds.
+[2019.05.07-22.44.24:662][335]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-22.44.24:667][335]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-22.44.24:686][335]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:44:24
+[2019.05.07-22.44.24:691][335]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.44.24:692][335]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.44.24:692][335]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.44.24:692][335]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.44.24:692][335]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.44.29:201][335]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.44.29:201][335]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.44.29:201][335]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.44.29:201][335]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.44.29:201][335]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.44.29:201][335]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.44.29:278][335]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.44.29:278][335]MapCheck: New page: Untitled_1 - 07/05/2019 16:44:29
+[2019.05.07-22.44.29:278][335]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-22.44.29:328][335]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 49,403ms.
+[2019.05.07-22.44.29:351][335]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-22.44.30:770][372]Job is a success!
+[2019.05.07-22.44.30:876][373]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-22.44.30:876][373]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.44.30:876][373]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-22.44.30:876][373]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.44.30:876][373]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-22.44.30:876][373]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-22.44.30:877][373]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-22.44.30:891][373]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2019.05.07-22.44.30:891][373]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2019.05.07-22.44.30:891][373]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.05.07-22.44.30:891][373]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.05.07-22.44.30:891][373]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.05.07-22.44.30:917][373]Lightmass on LABSOFT11: 746 ms total, 192 ms importing, 10 ms setup, 167 ms photons, 358 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.39 sec total, 162 ms processing.
+[2019.05.07-22.44.30:922][373]LogStaticLightingSystem: Illumination: 6.17 sec (5 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-22.44.30:922][373]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.44.30:922][373]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-22.44.31:204][373]DumpUnbuiltLightIteractions
+[2019.05.07-22.44.31:204][373]Lights with unbuilt interactions: 0
+[2019.05.07-22.44.31:204][373]
+[2019.05.07-22.44.31:204][373]Primitives with unbuilt interactions: 0
+[2019.05.07-22.44.31:351][374]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.44.31:351][374]MapCheck: New page: Untitled_1 - 07/05/2019 16:44:31
+[2019.05.07-22.44.31:403][374]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 51,713ms.
+[2019.05.07-22.44.32:477][445]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.44.32:487][445]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.44.44:491][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.44.47:785][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.44.51:179][159]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.05.07-22.45.04:997][669]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.45.07:722][839]MapCheck: New page: 맵 체크
+[2019.05.07-22.45.07:737][839]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.45.07:737][839]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.45.07:771][839]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.45.07:776][839]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.45.07:781][839]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.45.07:781][839]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.45.07:781][839]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.45.07:786][839]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.45.07:786][839]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.45.07:791][839]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.45.07:797][839]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.45.08:283][839]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.45.08:283][839]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.45.08:283][839]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.45.08:283][839]TextureStreamingBuild: Display: Compiling optional shaders took 0.515 seconds.
+[2019.05.07-22.45.08:297][839]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-22.45.08:302][839]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-22.45.08:321][839]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:45:08
+[2019.05.07-22.45.08:326][839]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.45.08:327][839]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.45.08:327][839]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.45.08:328][839]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.45.08:328][839]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.45.12:834][839]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.45.12:834][839]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.45.12:834][839]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.45.12:834][839]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.45.12:834][839]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.45.12:834][839]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.45.12:923][839]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.45.12:923][839]MapCheck: New page: Untitled_1 - 07/05/2019 16:45:12
+[2019.05.07-22.45.12:923][839]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-22.45.12:972][839]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 48,86ms.
+[2019.05.07-22.45.12:994][839]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-22.45.14:418][876]Job is a success!
+[2019.05.07-22.45.14:512][877]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-22.45.14:512][877]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.45.14:512][877]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-22.45.14:512][877]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.45.14:512][877]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-22.45.14:512][877]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-22.45.14:512][877]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-22.45.14:526][877]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2019.05.07-22.45.14:526][877]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2019.05.07-22.45.14:526][877]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.05.07-22.45.14:526][877]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.05.07-22.45.14:526][877]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_2 (G8, 32X32)
+[2019.05.07-22.45.14:554][877]Lightmass on LABSOFT11: 738 ms total, 188 ms importing, 11 ms setup, 172 ms photons, 341 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.32 sec total, 146 ms processing.
+[2019.05.07-22.45.14:559][877]LogStaticLightingSystem: Illumination: 6.18 sec (5 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-22.45.14:559][877]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.45.14:559][877]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-22.45.14:838][877]DumpUnbuiltLightIteractions
+[2019.05.07-22.45.14:838][877]Lights with unbuilt interactions: 0
+[2019.05.07-22.45.14:838][877]
+[2019.05.07-22.45.14:838][877]Primitives with unbuilt interactions: 0
+[2019.05.07-22.45.14:976][878]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.45.14:977][878]MapCheck: New page: Untitled_1 - 07/05/2019 16:45:14
+[2019.05.07-22.45.15:029][878]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 53,037ms.
+[2019.05.07-22.45.16:651][973]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.45.16:662][973]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.45.28:334][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.45.32:626][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.45.41:672][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.45.48:584][235]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.05.07-22.45.50:576][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.46.00:507][696]MapCheck: New page: 맵 체크
+[2019.05.07-22.46.00:522][696]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.46.00:523][696]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.46.00:557][696]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.46.00:562][696]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.46.00:567][696]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.46.00:567][696]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.46.00:567][696]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.46.00:572][696]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.46.00:572][696]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.46.00:578][696]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.46.00:583][696]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.46.01:082][696]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.46.01:082][696]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.46.01:082][696]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.46.01:082][696]TextureStreamingBuild: Display: Compiling optional shaders took 0.527 seconds.
+[2019.05.07-22.46.01:094][696]LogLevel: Display: Export Material TexCoord Scales took 0.013 seconds.
+[2019.05.07-22.46.01:100][696]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-22.46.01:118][696]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:46:01
+[2019.05.07-22.46.01:124][696]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.46.01:125][696]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.46.01:125][696]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.46.01:126][696]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.46.01:126][696]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.46.05:634][696]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.46.05:634][696]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.46.05:634][696]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.46.05:634][696]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.46.05:634][696]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.46.05:634][696]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.46.05:745][696]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.46.05:745][696]MapCheck: New page: Untitled_1 - 07/05/2019 16:46:05
+[2019.05.07-22.46.05:745][696]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-22.46.05:795][696]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 49,34ms.
+[2019.05.07-22.46.05:818][696]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-22.46.07:248][731]Job is a success!
+[2019.05.07-22.46.07:349][732]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2019.05.07-22.46.07:349][732]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.46.07:349][732]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-22.46.07:349][732]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.46.07:349][732]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-22.46.07:349][732]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-22.46.07:349][732]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-22.46.07:362][732]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2019.05.07-22.46.07:362][732]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2019.05.07-22.46.07:362][732]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.05.07-22.46.07:362][732]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.05.07-22.46.07:362][732]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_3 (BGRA8, 32X32)
+[2019.05.07-22.46.07:391][732]Lightmass on LABSOFT11: 759 ms total, 188 ms importing, 10 ms setup, 178 ms photons, 362 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.39 sec total, 154 ms processing.
+[2019.05.07-22.46.07:396][732]LogStaticLightingSystem: Illumination: 6.21 sec (5 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-22.46.07:397][732]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.46.07:397][732]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-22.46.07:637][732]DumpUnbuiltLightIteractions
+[2019.05.07-22.46.07:637][732]Lights with unbuilt interactions: 0
+[2019.05.07-22.46.07:637][732]
+[2019.05.07-22.46.07:637][732]Primitives with unbuilt interactions: 0
+[2019.05.07-22.46.07:792][733]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.46.07:792][733]MapCheck: New page: Untitled_1 - 07/05/2019 16:46:07
+[2019.05.07-22.46.07:845][733]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 52,81ms.
+[2019.05.07-22.46.08:564][794]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.46.08:576][794]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.46.15:086][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.46.17:451][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.46.44:891][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.46.44:991][579]MapCheck: New page: 맵 체크
+[2019.05.07-22.46.45:004][579]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.46.45:005][579]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.46.45:038][579]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.46.45:043][579]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.46.45:048][579]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.46.45:048][579]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.46.45:048][579]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.46.45:053][579]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.46.45:053][579]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.46.45:059][579]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.46.45:064][579]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.46.45:561][579]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.46.45:561][579]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.46.45:561][579]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.46.45:561][579]TextureStreamingBuild: Display: Compiling optional shaders took 0.525 seconds.
+[2019.05.07-22.46.45:575][579]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-22.46.45:581][579]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2019.05.07-22.46.45:600][579]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:46:45
+[2019.05.07-22.46.45:605][579]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.46.45:606][579]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.46.45:606][579]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.46.45:607][579]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.46.45:607][579]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.46.50:118][579]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.46.50:118][579]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.46.50:118][579]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.46.50:118][579]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.46.50:118][579]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.46.50:118][579]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.46.50:201][579]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.46.50:201][579]MapCheck: New page: Untitled_1 - 07/05/2019 16:46:50
+[2019.05.07-22.46.50:201][579]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-22.46.50:251][579]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 49,6ms.
+[2019.05.07-22.46.50:274][579]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-22.46.51:631][612]Job is a success!
+[2019.05.07-22.46.51:742][613]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-22.46.51:742][613]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.46.51:742][613]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-22.46.51:742][613]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.46.51:742][613]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-22.46.51:742][613]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-22.46.51:742][613]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-22.46.51:756][613]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2019.05.07-22.46.51:757][613]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2019.05.07-22.46.51:757][613]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.05.07-22.46.51:757][613]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.05.07-22.46.51:757][613]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_4 (BGRA8, 32X32)
+[2019.05.07-22.46.51:787][613]Lightmass on LABSOFT11: 757 ms total, 185 ms importing, 11 ms setup, 172 ms photons, 365 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.42 sec total, 175 ms processing.
+[2019.05.07-22.46.51:792][613]LogStaticLightingSystem: Illumination: 6.12 sec (5 ms encoding lightmaps, 1 ms encoding shadowmaps)
+[2019.05.07-22.46.51:792][613]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.46.51:793][613]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-22.46.52:121][613]DumpUnbuiltLightIteractions
+[2019.05.07-22.46.52:121][613]Lights with unbuilt interactions: 0
+[2019.05.07-22.46.52:121][613]
+[2019.05.07-22.46.52:121][613]Primitives with unbuilt interactions: 0
+[2019.05.07-22.46.52:271][614]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.46.52:271][614]MapCheck: New page: Untitled_1 - 07/05/2019 16:46:52
+[2019.05.07-22.46.52:322][614]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 50,645ms.
+[2019.05.07-22.46.53:426][686]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.46.53:438][686]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.47.09:064][242]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-22.47.12:809][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.47.20:868][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.47.25:957][833]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-22.47.26:240][842]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2019.05.07-22.47.31:577][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.47.31:855][ 32]LogEditorActor: Deleted Actor: DirectionalLight
+[2019.05.07-22.47.31:890][ 32]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2019.05.07-22.47.36:836][220]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.05.07-22.47.40:021][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.47.40:115][345]MapCheck: New page: 맵 체크
+[2019.05.07-22.47.40:131][345]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.47.40:131][345]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.47.40:166][345]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.47.40:171][345]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.47.40:177][345]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.47.40:177][345]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.47.40:177][345]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.47.40:182][345]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.47.40:182][345]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.47.40:187][345]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.47.40:192][345]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.47.40:690][345]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.47.40:690][345]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.47.40:690][345]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.47.40:690][345]TextureStreamingBuild: Display: Compiling optional shaders took 0.527 seconds.
+[2019.05.07-22.47.40:704][345]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-22.47.40:709][345]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-22.47.40:728][345]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:47:40
+[2019.05.07-22.47.40:733][345]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.47.40:734][345]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.47.40:734][345]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.47.40:735][345]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.47.40:735][345]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.47.45:243][345]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.47.45:243][345]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.47.45:243][345]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.47.45:243][345]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.47.45:243][345]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.47.45:243][345]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.47.45:312][345]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.47.45:313][345]MapCheck: New page: Untitled_1 - 07/05/2019 16:47:45
+[2019.05.07-22.47.45:313][345]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-22.47.45:362][345]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 49,69ms.
+[2019.05.07-22.47.45:385][345]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-22.47.46:734][380]Job is a success!
+[2019.05.07-22.47.46:830][381]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-22.47.46:830][381]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.47.46:830][381]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-22.47.46:830][381]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.47.46:830][381]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-22.47.46:830][381]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-22.47.46:830][381]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-22.47.46:845][381]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2019.05.07-22.47.46:845][381]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2019.05.07-22.47.46:845][381]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.05.07-22.47.46:845][381]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.05.07-22.47.46:845][381]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_5 (G8, 32X32)
+[2019.05.07-22.47.46:874][381]Lightmass on LABSOFT11: 735 ms total, 189 ms importing, 9 ms setup, 172 ms photons, 343 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.34 sec total, 147 ms processing.
+[2019.05.07-22.47.46:880][381]LogStaticLightingSystem: Illumination: 6.09 sec (5 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-22.47.46:880][381]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.47.46:880][381]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-22.47.47:246][381]DumpUnbuiltLightIteractions
+[2019.05.07-22.47.47:246][381]Lights with unbuilt interactions: 0
+[2019.05.07-22.47.47:246][381]
+[2019.05.07-22.47.47:246][381]Primitives with unbuilt interactions: 0
+[2019.05.07-22.47.47:377][382]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.47.47:377][382]MapCheck: New page: Untitled_1 - 07/05/2019 16:47:47
+[2019.05.07-22.47.47:435][382]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 57,215ms.
+[2019.05.07-22.47.48:254][441]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.47.48:264][441]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.47.49:184][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.47.49:864][495]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.07-22.47.55:316][585]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.48.11:463][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.48.12:913][306]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-22.48.13:854][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.48.13:912][344]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.07-22.48.13:924][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.07-22.48.13:936][344]PIE: New page: PIE 세션: Untitled_1 (07/05/2019 16:48:13)
+[2019.05.07-22.48.13:936][344]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.05.07-22.48.13:938][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001863s)
+[2019.05.07-22.48.13:939][344]LogAIModule: Creating AISystem for world Untitled_1
+[2019.05.07-22.48.13:939][344]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2019.05.07-22.48.13:939][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002649s)
+[2019.05.07-22.48.13:960][344]LogInit: XAudio2 using 'Realtek Digital Output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.07-22.48.13:979][344]LogInit: FAudioDevice initialized.
+[2019.05.07-22.48.14:018][344]LogLoad: Game class is 'GameModeBase'
+[2019.05.07-22.48.14:019][344]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2019.05.07-19.48.14
+[2019.05.07-22.48.14:020][344]LogWorld: Bringing up level for play took: 0.000533
+[2019.05.07-22.48.14:035][344]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.05.07-22.48.14:036][344]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 1,11
+[2019.05.07-22.48.18:650][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.07-22.48.18:701][605]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.07-22.48.18:722][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.07-22.48.18:769][607]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.05.07-22.48.19:902][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.48.24:508][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.48.34:209][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.48.34:378][242]LogActorFactory: Actor Factory created Cube
+[2019.05.07-22.48.34:967][263]LogActorFactory: Actor Factory created Cube
+[2019.05.07-22.48.36:797][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.48.36:901][336]MapCheck: New page: 맵 체크
+[2019.05.07-22.48.36:951][336]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.48.36:951][336]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.48.36:984][336]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.48.36:989][336]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.48.36:989][336]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.48.36:995][336]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.48.36:995][336]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.48.37:000][336]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.48.37:000][336]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.48.37:005][336]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.48.37:011][336]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.48.37:016][336]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2019.05.07-22.48.37:556][336]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.05.07-22.48.37:556][336]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.48.37:556][336]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.48.37:556][336]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.48.37:556][336]TextureStreamingBuild: Display: Compiling optional shaders took 0.575 seconds.
+[2019.05.07-22.48.37:569][336]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-22.48.37:575][336]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-22.48.37:594][336]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:48:37
+[2019.05.07-22.48.37:599][336]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.48.37:600][336]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.48.37:600][336]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.48.37:601][336]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.48.37:601][336]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.48.42:109][336]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.48.42:109][336]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.48.42:109][336]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.48.42:109][336]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.48.42:109][336]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.48.42:109][336]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.48.42:197][336]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.48.42:197][336]MapCheck: New page: Untitled_1 - 07/05/2019 16:48:42
+[2019.05.07-22.48.42:198][336]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-22.48.42:246][336]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 49,761ms.
+[2019.05.07-22.48.42:269][336]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-22.48.42:274][336]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.48.43:720][374]Job is a success!
+[2019.05.07-22.48.43:819][375]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-22.48.43:819][375]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.48.43:819][375]LogVolumetricLightmapImport:      BrickData 20x5x5 = 0.0Mb
+[2019.05.07-22.48.43:819][375]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.48.43:819][375]LogVolumetricLightmapImport:          0: 25.0% covering 100.0% of volume
+[2019.05.07-22.48.43:819][375]LogVolumetricLightmapImport:          1: 25.0% covering 1.6% of volume
+[2019.05.07-22.48.43:819][375]LogVolumetricLightmapImport:          2: 50.0% covering 0.0% of volume
+[2019.05.07-22.48.43:838][375]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2019.05.07-22.48.43:838][375]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2019.05.07-22.48.43:838][375]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.05.07-22.48.43:838][375]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.05.07-22.48.43:838][375]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_7 (G8, 32X32)
+[2019.05.07-22.48.43:838][375]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_6 (G8, 64X64)
+[2019.05.07-22.48.43:866][375]Lightmass on LABSOFT11: 798 ms total, 196 ms importing, 12 ms setup, 178 ms photons, 385 ms processing, 0 ms extra exporting [3/3 mappings]. Threads: 1.50 sec total, 188 ms processing.
+[2019.05.07-22.48.43:873][375]LogStaticLightingSystem: Illumination: 6.21 sec (8 ms encoding lightmaps, 1 ms encoding shadowmaps)
+[2019.05.07-22.48.43:873][375]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.48.43:873][375]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.05.07-22.48.44:113][375]DumpUnbuiltLightIteractions
+[2019.05.07-22.48.44:113][375]Lights with unbuilt interactions: 0
+[2019.05.07-22.48.44:113][375]
+[2019.05.07-22.48.44:113][375]Primitives with unbuilt interactions: 0
+[2019.05.07-22.48.44:116][375]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.48.44:247][376]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.48.44:247][376]MapCheck: New page: Untitled_1 - 07/05/2019 16:48:44
+[2019.05.07-22.48.44:298][376]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 50,457ms.
+[2019.05.07-22.48.45:243][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.48.45:382][416]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.48.45:414][416]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.48.51:398][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.07-22.48.57:386][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.48.57:575][788]LogAssetEditorManager: Opening Asset editor for Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial
+[2019.05.07-22.48.57:593][788]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2019.05.07-22.48.57:890][788]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2019.05.07-22.48.57:910][788]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2019.05.07-22.48.57:928][788]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.07-22.48.57:928][788]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.05.07-22.48.57:928][788]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.05.07-22.48.57:953][788]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.05.07-22.48.57:977][788]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.07-22.48.59:219][814]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.05.07-22.48.59:224][814]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.05.07-22.48.59:489][820]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.05.07-22.48.59:812][827]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.05.07-22.48.59:813][827]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.05.07-22.49.00:151][834]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.05.07-22.49.00:388][839]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.05.07-22.49.00:435][840]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.05.07-22.49.00:696][846]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.05.07-22.49.01:599][865]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.07-22.49.01:973][873]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.05.07-22.49.02:235][879]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.05.07-22.49.03:099][897]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.05.07-22.49.03:315][902]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.05.07-22.49.03:498][906]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.05.07-22.49.04:292][923]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.05.07-22.49.04:759][933]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.05.07-22.49.04:804][934]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.05.07-22.49.05:477][948]LogSlate: Window 'BasicShapeMaterial' being destroyed
+[2019.05.07-22.49.05:529][948]LogSlate: Window 'BasicShapeMaterial' being destroyed
+[2019.05.07-22.49.05:588][948]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.05.07-22.49.05:588][948]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.07-22.49.06:133][966]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.05.07-22.49.06:833][991]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.05.07-22.49.06:852][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.07-22.49.06:865][991]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.05.07-22.49.07:052][998]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.05.07-22.49.07:794][ 24]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.49.08:227][ 40]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.49.08:399][ 46]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.49.09:897][102]Cmd: DELETE
+[2019.05.07-22.49.09:897][102]Cmd: ACTOR DELETE
+[2019.05.07-22.49.09:899][102]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.07-22.49.09:930][102]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.05.07-22.49.10:792][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.49.12:226][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.49.12:467][168]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/earth_Icosphere.earth_Icosphere
+[2019.05.07-22.49.12:783][168]LogRenderer: Reallocating scene render targets to support 1072x744 Format 10 NumSamples 1 (Frame:1).
+[2019.05.07-22.49.17:587][209]LogAssetEditorManager: Opening Asset editor for Material /Game/Blue.Blue
+[2019.05.07-22.49.17:592][209]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2019.05.07-22.49.17:732][209]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2019.05.07-22.49.17:749][209]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2019.05.07-22.49.17:767][209]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.07-22.49.17:767][209]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.05.07-22.49.17:767][209]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.05.07-22.49.17:792][209]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.05.07-22.49.18:436][216]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.05.07-22.49.18:528][217]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.05.07-22.49.18:558][217]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.05.07-22.49.18:956][221]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.05.07-22.49.18:991][222]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.05.07-22.49.19:052][222]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.05.07-22.49.19:329][225]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.05.07-22.49.19:387][226]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.05.07-22.49.19:588][228]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.05.07-22.49.20:343][235]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.07-22.49.20:720][239]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.05.07-22.49.20:923][241]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.05.07-22.49.21:639][248]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.05.07-22.49.21:666][248]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.05.07-22.49.22:227][254]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.05.07-22.49.22:885][260]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.05.07-22.49.23:052][262]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.05.07-22.49.23:105][262]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.05.07-22.49.23:804][269]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.05.07-22.49.24:413][275]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.07-22.49.24:472][276]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.05.07-22.49.25:182][283]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.05.07-22.49.25:285][284]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.05.07-22.49.25:894][290]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.05.07-22.49.26:669][297]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.05.07-22.49.26:749][298]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.05.07-22.49.26:913][300]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.49.27:635][307]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.49.27:955][310]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.49.28:182][312]MaterialEditorStats: Base pass shader: 101 instructions
+[2019.05.07-22.49.28:183][312]MaterialEditorStats: Base pass shader with Surface Lightmap: 118 instructions
+[2019.05.07-22.49.28:183][312]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2019.05.07-22.49.28:183][312]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.05.07-22.49.28:183][312]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.07-22.49.34:899][387]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2019.05.07-22.49.34:940][387]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.07-22.49.34:940][387]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.05.07-22.49.34:940][387]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.05.07-22.49.35:539][395]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.05.07-22.49.35:638][396]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.05.07-22.49.35:671][396]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.05.07-22.49.35:981][399]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.05.07-22.49.36:148][401]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.05.07-22.49.36:168][401]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.05.07-22.49.36:432][404]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.05.07-22.49.36:487][404]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.07-22.49.36:647][406]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.05.07-22.49.37:370][413]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.05.07-22.49.37:784][417]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.05.07-22.49.37:858][418]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.05.07-22.49.38:655][426]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.05.07-22.49.38:677][426]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.05.07-22.49.39:093][430]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.05.07-22.49.40:015][439]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.05.07-22.49.40:105][440]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.05.07-22.49.40:154][441]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.07-22.49.40:817][447]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.05.07-22.49.41:317][452]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.05.07-22.49.41:589][455]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.05.07-22.49.42:198][461]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.05.07-22.49.42:375][463]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.05.07-22.49.42:705][466]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.05.07-22.49.43:494][474]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.49.43:685][476]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.49.43:932][478]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.49.45:055][489]MaterialEditorStats: Base pass shader: 101 instructions
+[2019.05.07-22.49.45:055][489]MaterialEditorStats: Base pass shader with Surface Lightmap: 118 instructions
+[2019.05.07-22.49.45:055][489]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2019.05.07-22.49.45:055][489]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.05.07-22.49.45:055][489]MaterialEditorStats: Texture samplers: 3/16
+[2019.05.07-22.49.59:962][642]LogSlate: Window '메시지' being destroyed
+[2019.05.07-22.49.59:967][642]LogSlate: Window 'Blue' being destroyed
+[2019.05.07-22.49.59:969][642]LogSlate: Window 'Blue' being destroyed
+[2019.05.07-22.50.03:444][756]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.05.07-22.50.15:109][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.50.15:198][155]MapCheck: New page: 맵 체크
+[2019.05.07-22.50.15:256][155]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.50.15:256][155]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.50.15:290][155]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.50.15:296][155]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.50.15:301][155]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.50.15:301][155]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.50.15:301][155]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.50.15:306][155]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.50.15:306][155]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.50.15:311][155]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.50.15:316][155]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.50.15:816][155]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.50.15:816][155]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.50.15:816][155]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.50.15:816][155]TextureStreamingBuild: Display: Compiling optional shaders took 0.528 seconds.
+[2019.05.07-22.50.15:829][155]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-22.50.15:834][155]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-22.50.15:853][155]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:50:15
+[2019.05.07-22.50.15:858][155]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.50.15:860][155]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.50.15:860][155]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.50.15:861][155]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.50.15:861][155]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.50.20:372][155]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.50.20:372][155]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.50.20:372][155]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.50.20:372][155]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.50.20:372][155]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.50.20:372][155]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.50.20:487][155]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.50.20:487][155]MapCheck: New page: Untitled_1 - 07/05/2019 16:50:20
+[2019.05.07-22.50.20:539][155]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 51,29ms.
+[2019.05.07-22.50.20:561][155]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-22.50.22:046][193]Job is a success!
+[2019.05.07-22.50.22:107][195]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.50.22:160][195]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-22.50.22:160][195]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.50.22:160][195]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-22.50.22:160][195]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.50.22:161][195]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-22.50.22:161][195]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-22.50.22:161][195]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-22.50.22:172][195]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2019.05.07-22.50.22:172][195]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2019.05.07-22.50.22:172][195]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.05.07-22.50.22:172][195]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.05.07-22.50.22:172][195]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_8 (G8, 32X32)
+[2019.05.07-22.50.22:198][195]Lightmass on LABSOFT11: 857 ms total, 211 ms importing, 8 ms setup, 174 ms photons, 430 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.68 sec total, 165 ms processing.
+[2019.05.07-22.50.22:203][195]LogStaticLightingSystem: Illumination: 6.31 sec (4 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-22.50.22:203][195]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.50.22:203][195]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-22.50.22:376][195]DumpUnbuiltLightIteractions
+[2019.05.07-22.50.22:376][195]Lights with unbuilt interactions: 0
+[2019.05.07-22.50.22:376][195]
+[2019.05.07-22.50.22:376][195]Primitives with unbuilt interactions: 0
+[2019.05.07-22.50.22:380][195]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.50.22:512][196]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.50.22:512][196]MapCheck: New page: Untitled_1 - 07/05/2019 16:50:22
+[2019.05.07-22.50.22:566][196]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 53,601ms.
+[2019.05.07-22.50.29:161][413]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.50.43:740][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.50.46:745][874]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-22.50.47:831][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.50.48:578][928]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-22.50.49:644][962]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.05.07-22.50.50:482][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.50.51:398][ 16]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-22.50.58:097][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.51.00:296][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.51.00:570][278]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/earth_Icosphere.earth_Icosphere
+[2019.05.07-22.51.22:727][516]LogSlate: Window 'earth_Icosphere' being destroyed
+[2019.05.07-22.51.22:804][516]LogSlate: Window 'earth_Icosphere' being destroyed
+[2019.05.07-22.51.24:019][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.51.36:152][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.51.39:656][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.51.39:780][ 79]MapCheck: New page: 맵 체크
+[2019.05.07-22.51.39:839][ 79]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.51.39:839][ 79]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.51.39:874][ 79]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.51.39:879][ 79]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.51.39:884][ 79]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.51.39:884][ 79]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.51.39:884][ 79]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.51.39:890][ 79]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.51.39:890][ 79]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.51.39:895][ 79]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.51.39:900][ 79]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.51.40:399][ 79]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.51.40:399][ 79]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.51.40:399][ 79]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.51.40:399][ 79]TextureStreamingBuild: Display: Compiling optional shaders took 0.528 seconds.
+[2019.05.07-22.51.40:416][ 79]LogLevel: Display: Export Material TexCoord Scales took 0.017 seconds.
+[2019.05.07-22.51.40:422][ 79]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2019.05.07-22.51.40:441][ 79]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:51:40
+[2019.05.07-22.51.40:451][ 79]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.51.40:452][ 79]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.51.40:452][ 79]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.51.40:453][ 79]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.51.40:453][ 79]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.51.44:965][ 79]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.51.44:965][ 79]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.51.44:965][ 79]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.51.44:965][ 79]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.51.44:965][ 79]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.51.44:965][ 79]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.51.45:058][ 79]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.51.45:058][ 79]MapCheck: New page: Untitled_1 - 07/05/2019 16:51:45
+[2019.05.07-22.51.45:058][ 79]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-22.51.45:109][ 79]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 50,426ms.
+[2019.05.07-22.51.45:131][ 79]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-22.51.45:136][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.51.46:555][111]Job is a success!
+[2019.05.07-22.51.46:681][112]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-22.51.46:681][112]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.51.46:681][112]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-22.51.46:681][112]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.51.46:681][112]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-22.51.46:681][112]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-22.51.46:681][112]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-22.51.46:695][112]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2019.05.07-22.51.46:695][112]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2019.05.07-22.51.46:695][112]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.05.07-22.51.46:695][112]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.05.07-22.51.46:695][112]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_9 (G8, 32X32)
+[2019.05.07-22.51.46:724][112]Lightmass on LABSOFT11: 802 ms total, 206 ms importing, 10 ms setup, 178 ms photons, 384 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.50 sec total, 151 ms processing.
+[2019.05.07-22.51.46:729][112]LogStaticLightingSystem: Illumination: 6.21 sec (5 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-22.51.46:729][112]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.51.46:730][112]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-22.51.46:967][112]DumpUnbuiltLightIteractions
+[2019.05.07-22.51.46:967][112]Lights with unbuilt interactions: 0
+[2019.05.07-22.51.46:967][112]
+[2019.05.07-22.51.46:967][112]Primitives with unbuilt interactions: 0
+[2019.05.07-22.51.46:970][112]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.51.47:112][113]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.51.47:112][113]MapCheck: New page: Untitled_1 - 07/05/2019 16:51:47
+[2019.05.07-22.51.47:166][113]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 54,368ms.
+[2019.05.07-22.51.47:838][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.51.48:005][139]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.51.48:041][139]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.51.57:118][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.51.57:246][429]MapCheck: New page: 맵 체크
+[2019.05.07-22.51.57:306][429]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.51.57:306][429]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.51.57:340][429]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.51.57:345][429]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.51.57:345][429]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.51.57:350][429]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.51.57:350][429]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.51.57:355][429]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.51.57:355][429]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.51.57:361][429]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.51.57:366][429]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.51.57:644][429]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.51.57:644][429]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.51.57:644][429]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.51.57:644][429]TextureStreamingBuild: Display: Compiling optional shaders took 0.306 seconds.
+[2019.05.07-22.51.57:658][429]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-22.51.57:662][429]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-22.51.57:681][429]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:51:57
+[2019.05.07-22.51.57:686][429]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.51.57:688][429]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.51.57:688][429]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.51.57:688][429]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.51.57:688][429]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.52.02:197][429]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.52.02:197][429]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.52.02:197][429]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.52.02:197][429]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.52.02:197][429]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.52.02:197][429]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.52.02:275][429]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.52.02:275][429]MapCheck: New page: Untitled_1 - 07/05/2019 16:52:02
+[2019.05.07-22.52.02:276][429]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-22.52.02:326][429]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 50,616ms.
+[2019.05.07-22.52.02:348][429]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-22.52.02:353][429]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.52.03:857][462]Job is a success!
+[2019.05.07-22.52.03:960][464]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.004s
+[2019.05.07-22.52.03:960][464]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.52.03:960][464]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-22.52.03:960][464]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.52.03:960][464]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-22.52.03:960][464]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-22.52.03:960][464]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-22.52.03:973][464]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2019.05.07-22.52.03:973][464]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2019.05.07-22.52.03:973][464]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.05.07-22.52.03:973][464]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.05.07-22.52.03:973][464]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_10 (G8, 32X32)
+[2019.05.07-22.52.03:998][464]Lightmass on LABSOFT11: 833 ms total, 217 ms importing, 11 ms setup, 173 ms photons, 409 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.59 sec total, 166 ms processing.
+[2019.05.07-22.52.04:003][464]LogStaticLightingSystem: Illumination: 6.26 sec (4 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-22.52.04:003][464]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.52.04:003][464]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-22.52.04:200][464]DumpUnbuiltLightIteractions
+[2019.05.07-22.52.04:200][464]Lights with unbuilt interactions: 0
+[2019.05.07-22.52.04:200][464]
+[2019.05.07-22.52.04:200][464]Primitives with unbuilt interactions: 0
+[2019.05.07-22.52.04:204][464]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.52.04:343][465]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.52.04:343][465]MapCheck: New page: Untitled_1 - 07/05/2019 16:52:04
+[2019.05.07-22.52.04:396][465]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 54ms.
+[2019.05.07-22.52.05:068][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.52.05:268][492]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.52.05:307][492]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.52.06:636][532]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.52.07:159][548]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.52.07:169][548]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.52.08:149][579]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.52.23:181][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.52.28:044][ 91]LogSlate: Window '레벨 다른 이름으로 저장' being destroyed
+[2019.05.07-22.52.29:176][130]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.52.34:630][317]LogEditorViewport: Clicking Background
+[2019.05.07-22.52.37:011][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.52.42:817][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.53.32:245][249]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.54.38:137][273]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-22.54.39:112][303]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.54.53:101][757]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.55.04:590][126]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-22.55.05:522][156]Cmd: TRANSACTION UNDO
+[2019.05.07-22.55.05:522][156]LogEditorTransaction: Undo 액터 클릭
+[2019.05.07-22.55.06:836][198]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-22.55.07:156][207]Cmd: TRANSACTION UNDO
+[2019.05.07-22.55.07:157][207]LogEditorTransaction: Undo 액터 클릭
+[2019.05.07-22.55.07:582][221]Cmd: TRANSACTION UNDO
+[2019.05.07-22.55.07:582][221]LogEditorTransaction: Undo 액터 이동
+[2019.05.07-22.55.10:304][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.55.17:643][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.55.30:197][786]LogActorFactory: Actor Factory created Cube
+[2019.05.07-22.55.30:613][799]LogActorFactory: Actor Factory created Cube
+[2019.05.07-22.55.48:621][298]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.55.52:473][386]MapCheck: New page: 맵 체크
+[2019.05.07-22.55.52:534][386]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.55.52:534][386]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.55.52:568][386]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.55.52:574][386]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.55.52:579][386]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.55.52:584][386]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.55.52:584][386]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.55.52:584][386]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.55.52:584][386]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.55.52:589][386]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.55.52:595][386]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.55.53:092][386]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.55.53:092][386]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.55.53:092][386]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.55.53:092][386]TextureStreamingBuild: Display: Compiling optional shaders took 0.526 seconds.
+[2019.05.07-22.55.53:106][386]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-22.55.53:111][386]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-22.55.53:130][386]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:55:53
+[2019.05.07-22.55.53:135][386]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.55.53:136][386]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.55.53:136][386]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.55.53:137][386]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.55.53:137][386]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.55.57:645][386]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.55.57:645][386]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.55.57:645][386]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.55.57:645][386]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.55.57:646][386]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.55.57:646][386]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.55.57:763][386]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.55.57:763][386]MapCheck: New page: Untitled_1 - 07/05/2019 16:55:57
+[2019.05.07-22.55.57:764][386]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-22.55.57:815][386]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 52,287ms.
+[2019.05.07-22.55.57:838][386]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-22.55.59:431][409]Job is a success!
+[2019.05.07-22.55.59:653][410]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-22.55.59:653][410]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.55.59:653][410]LogVolumetricLightmapImport:      BrickData 15x5x5 = 0.0Mb
+[2019.05.07-22.55.59:653][410]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.55.59:653][410]LogVolumetricLightmapImport:          0: 33.3% covering 100.0% of volume
+[2019.05.07-22.55.59:653][410]LogVolumetricLightmapImport:          1: 33.3% covering 1.6% of volume
+[2019.05.07-22.55.59:653][410]LogVolumetricLightmapImport:          2: 33.3% covering 0.0% of volume
+[2019.05.07-22.55.59:672][410]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2019.05.07-22.55.59:672][410]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2019.05.07-22.55.59:672][410]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.05.07-22.55.59:673][410]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.05.07-22.55.59:673][410]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_12 (G8, 32X32)
+[2019.05.07-22.55.59:673][410]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_11 (G8, 64X64)
+[2019.05.07-22.55.59:702][410]Lightmass on LABSOFT11: 1.03 sec total, 202 ms importing, 12 ms setup, 168 ms photons, 621 ms processing, 0 ms extra exporting [3/3 mappings]. Threads: 2.45 sec total, 99 ms processing.
+[2019.05.07-22.55.59:709][410]LogStaticLightingSystem: Illumination: 6.55 sec (9 ms encoding lightmaps, 1 ms encoding shadowmaps)
+[2019.05.07-22.55.59:709][410]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.55.59:709][410]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.05.07-22.56.00:649][410]DumpUnbuiltLightIteractions
+[2019.05.07-22.56.00:649][410]Lights with unbuilt interactions: 0
+[2019.05.07-22.56.00:649][410]
+[2019.05.07-22.56.00:649][410]Primitives with unbuilt interactions: 0
+[2019.05.07-22.56.00:779][411]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.56.00:779][411]MapCheck: New page: Untitled_1 - 07/05/2019 16:56:00
+[2019.05.07-22.56.00:835][411]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 57,009ms.
+[2019.05.07-22.56.02:611][465]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.56.02:650][465]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.56.06:101][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StaticMeshActor)
+[2019.05.07-22.56.07:324][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.07-22.56.07:828][605]Cmd: DELETE
+[2019.05.07-22.56.07:828][605]Cmd: ACTOR DELETE
+[2019.05.07-22.56.07:831][605]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.07-22.56.07:863][605]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.05.07-22.56.09:290][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.56.16:560][717]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.56.17:175][730]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.56.18:675][781]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.56.21:975][895]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-22.56.25:167][895]LogSlate: Window '레벨 다른 이름으로 저장' being destroyed
+[2019.05.07-22.56.47:285][192]LogSlate: Window '레벨 다른 이름으로 저장' being destroyed
+[2019.05.07-22.56.47:385][192]LogSavePackage: Moving '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/init71FE96504B8D5E866521F7B6066A28BC.tmp' to '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Content/Maps/init.umap'
+[2019.05.07-22.56.47:401][192]LogFileHelpers: Saving map 'init' took 0.111
+[2019.05.07-22.56.47:405][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/init_BuiltData" FILE="../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Content/Maps/init_BuiltData.uasset" SILENT=true
+[2019.05.07-22.56.47:416][192]LogSavePackage: Moving '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/init_BuiltDataA7AB4024405FA6B72DD13CAE770408D3.tmp' to '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Content/Maps/init_BuiltData.uasset'
+[2019.05.07-22.58.32:496][565]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-22.58.33:511][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-22.58.47:535][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.58.52:053][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-22.58.52:136][183]MapCheck: New page: 맵 체크
+[2019.05.07-22.58.52:196][183]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-22.58.52:196][183]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-22.58.52:229][183]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-22.58.52:235][183]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-22.58.52:240][183]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.58.52:240][183]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.58.52:240][183]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-22.58.52:245][183]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.58.52:245][183]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-22.58.52:251][183]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-22.58.52:256][183]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-22.58.52:764][183]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-22.58.52:764][183]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-22.58.52:764][183]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-22.58.52:764][183]TextureStreamingBuild: Display: Compiling optional shaders took 0.538 seconds.
+[2019.05.07-22.58.52:778][183]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-22.58.52:783][183]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2019.05.07-22.58.52:802][183]LightingResults: New page: 라이팅 빌드 - 07/05/2019 16:58:52
+[2019.05.07-22.58.52:807][183]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-22.58.52:810][183]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-22.58.52:810][183]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-22.58.52:811][183]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-22.58.52:811][183]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-22.58.57:320][183]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-22.58.57:320][183]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-22.58.57:320][183]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-22.58.57:320][183]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-22.58.57:320][183]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-22.58.57:320][183]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-22.58.57:434][183]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-22.58.57:434][183]MapCheck: New page: init - 07/05/2019 16:58:57
+[2019.05.07-22.58.57:435][183]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-22.58.57:486][183]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 51,846ms.
+[2019.05.07-22.58.57:510][183]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-22.58.58:964][214]Job is a success!
+[2019.05.07-22.58.59:070][216]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-22.58.59:070][216]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-22.58.59:070][216]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-22.58.59:070][216]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-22.58.59:070][216]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-22.58.59:070][216]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-22.58.59:070][216]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-22.58.59:082][216]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2019.05.07-22.58.59:082][216]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2019.05.07-22.58.59:082][216]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.05.07-22.58.59:082][216]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.05.07-22.58.59:082][216]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_13 (G8, 32X32)
+[2019.05.07-22.58.59:108][216]Lightmass on LABSOFT11: 812 ms total, 206 ms importing, 12 ms setup, 175 ms photons, 396 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.55 sec total, 187 ms processing.
+[2019.05.07-22.58.59:112][216]LogStaticLightingSystem: Illumination: 6.25 sec (4 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-22.58.59:112][216]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-22.58.59:112][216]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-22.58.59:323][216]DumpUnbuiltLightIteractions
+[2019.05.07-22.58.59:323][216]Lights with unbuilt interactions: 0
+[2019.05.07-22.58.59:323][216]
+[2019.05.07-22.58.59:323][216]Primitives with unbuilt interactions: 0
+[2019.05.07-22.58.59:466][217]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-22.58.59:466][217]MapCheck: New page: init - 07/05/2019 16:58:59
+[2019.05.07-22.58.59:520][217]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 53,446ms.
+[2019.05.07-22.59.00:528][248]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.59.00:566][248]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-22.59.40:292][492]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.07-22.59.40:356][493]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.diaspora
+[2019.05.07-22.59.40:357][493]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.05.07-22.59.40:357][493]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.05.07-22.59.40:357][493]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.05.07-22.59.40:357][493]LogTemp: BranchPath = LABSOFT11/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = LABSOFT11/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.05.07-22.59.40:358][493]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\aluno\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.05.07-23.06.34:587][374]LogSavePackage: Moving '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/init_Auto11FAD14FF410D69285E1D06B0C02F4822.tmp' to '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/Autosaves/Game/Maps/init_Auto1.umap'
+[2019.05.07-23.06.34:589][374]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/init' took 0.043
+[2019.05.07-23.06.34:589][374]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.043
+[2019.05.07-23.06.34:590][374]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/init_BuiltData] ([1] browsable assets)...
+[2019.05.07-23.06.34:590][374]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/init_BuiltData]
+[2019.05.07-23.06.34:596][374]LogSavePackage: Moving '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/init_BuiltData_Auto15C30CD494108B6C64E6EAE9C8E42713C.tmp' to '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/Autosaves/Game/Maps/init_BuiltData_Auto1.uasset'
+[2019.05.07-23.06.34:597][374]LogFileHelpers: Auto-saving content packages took 0.007
+[2019.05.07-23.20.11:812][864]LogSlate: Window '프로젝트 세팅' being destroyed
+[2019.05.07-23.20.11:848][864]LogSlate: Window '프로젝트 세팅' being destroyed
+[2019.05.07-23.23.32:779][379]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.23.34:268][424]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.23.39:666][596]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.25.21:439][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-23.25.32:161][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.25.33:860][165]MapCheck: New page: 맵 체크
+[2019.05.07-23.25.33:916][165]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-23.25.33:916][165]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-23.25.33:950][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-23.25.33:956][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-23.25.33:961][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-23.25.33:966][165]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-23.25.33:966][165]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.25.33:966][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-23.25.33:971][165]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.25.33:971][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-23.25.33:977][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-23.25.34:485][165]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-23.25.34:485][165]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-23.25.34:485][165]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.25.34:485][165]TextureStreamingBuild: Display: Compiling optional shaders took 0.538 seconds.
+[2019.05.07-23.25.34:500][165]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-23.25.34:505][165]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-23.25.34:524][165]LightingResults: New page: 라이팅 빌드 - 07/05/2019 17:25:34
+[2019.05.07-23.25.34:530][165]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-23.25.34:531][165]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-23.25.34:531][165]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-23.25.34:532][165]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-23.25.34:532][165]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-23.25.39:041][165]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-23.25.39:041][165]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-23.25.39:041][165]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-23.25.39:041][165]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-23.25.39:041][165]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-23.25.39:041][165]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-23.25.39:168][165]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-23.25.39:168][165]MapCheck: New page: init - 07/05/2019 17:25:39
+[2019.05.07-23.25.39:221][165]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 52,81ms.
+[2019.05.07-23.25.39:244][165]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-23.25.40:726][202]Job is a success!
+[2019.05.07-23.25.40:773][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.25.40:826][203]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-23.25.40:826][203]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-23.25.40:826][203]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-23.25.40:826][203]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-23.25.40:826][203]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-23.25.40:826][203]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-23.25.40:826][203]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-23.25.40:836][203]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 64X64)
+[2019.05.07-23.25.40:836][203]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 64X64)
+[2019.05.07-23.25.40:836][203]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_14 (G8, 32X32)
+[2019.05.07-23.25.40:860][203]Lightmass on LABSOFT11: 787 ms total, 203 ms importing, 7 ms setup, 183 ms photons, 365 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.42 sec total, 145 ms processing.
+[2019.05.07-23.25.40:865][203]LogStaticLightingSystem: Illumination: 6.30 sec (3 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-23.25.40:865][203]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.05.07-23.25.40:865][203]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-23.25.41:045][203]DumpUnbuiltLightIteractions
+[2019.05.07-23.25.41:045][203]Lights with unbuilt interactions: 0
+[2019.05.07-23.25.41:045][203]
+[2019.05.07-23.25.41:045][203]Primitives with unbuilt interactions: 0
+[2019.05.07-23.25.41:049][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.25.41:182][204]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-23.25.41:183][204]MapCheck: New page: init - 07/05/2019 17:25:41
+[2019.05.07-23.25.41:234][204]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 52,344ms.
+[2019.05.07-23.25.43:197][263]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.25.43:994][285]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.25.56:978][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.26.06:430][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.26.11:281][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-23.26.28:814][644]Cmd: TRANSACTION UNDO
+[2019.05.07-23.26.28:814][644]LogEditorTransaction: Undo 액터 이동
+[2019.05.07-23.26.38:640][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.26.40:239][948]MapCheck: New page: 맵 체크
+[2019.05.07-23.26.40:306][948]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-23.26.40:307][948]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-23.26.40:340][948]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-23.26.40:345][948]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-23.26.40:351][948]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-23.26.40:356][948]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-23.26.40:356][948]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.26.40:356][948]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-23.26.40:361][948]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.26.40:361][948]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-23.26.40:367][948]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-23.26.40:875][948]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-23.26.40:875][948]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-23.26.40:875][948]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.26.40:875][948]TextureStreamingBuild: Display: Compiling optional shaders took 0.537 seconds.
+[2019.05.07-23.26.40:889][948]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-23.26.40:894][948]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-23.26.40:912][948]LightingResults: New page: 라이팅 빌드 - 07/05/2019 17:26:40
+[2019.05.07-23.26.40:918][948]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-23.26.40:919][948]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-23.26.40:919][948]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-23.26.40:920][948]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-23.26.40:920][948]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-23.26.45:431][948]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-23.26.45:431][948]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-23.26.45:431][948]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-23.26.45:431][948]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-23.26.45:431][948]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-23.26.45:431][948]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-23.26.45:518][948]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-23.26.45:519][948]MapCheck: New page: init - 07/05/2019 17:26:45
+[2019.05.07-23.26.45:519][948]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-23.26.45:570][948]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 51,368ms.
+[2019.05.07-23.26.45:593][948]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-23.26.45:598][948]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.26.47:143][981]Job is a success!
+[2019.05.07-23.26.47:271][982]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2019.05.07-23.26.47:271][982]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-23.26.47:271][982]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-23.26.47:271][982]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-23.26.47:271][982]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-23.26.47:271][982]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-23.26.47:272][982]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-23.26.47:285][982]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2019.05.07-23.26.47:285][982]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2019.05.07-23.26.47:285][982]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.05.07-23.26.47:285][982]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.05.07-23.26.47:285][982]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_15 (G8, 32X32)
+[2019.05.07-23.26.47:312][982]Lightmass on LABSOFT11: 834 ms total, 191 ms importing, 12 ms setup, 182 ms photons, 428 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.68 sec total, 172 ms processing.
+[2019.05.07-23.26.47:319][982]LogStaticLightingSystem: Illumination: 6.32 sec (5 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-23.26.47:319][982]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-23.26.47:319][982]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-23.26.47:434][982]DumpUnbuiltLightIteractions
+[2019.05.07-23.26.47:435][982]Lights with unbuilt interactions: 0
+[2019.05.07-23.26.47:435][982]
+[2019.05.07-23.26.47:435][982]Primitives with unbuilt interactions: 0
+[2019.05.07-23.26.47:439][982]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.26.47:573][983]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-23.26.47:574][983]MapCheck: New page: init - 07/05/2019 17:26:47
+[2019.05.07-23.26.47:627][983]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 53,534ms.
+[2019.05.07-23.26.50:147][ 47]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.26.58:681][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.26.58:880][189]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/earth_Icosphere.earth_Icosphere
+[2019.05.07-23.27.35:942][682]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.27.36:082][682]LogSavePackage: Moving '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/init_Auto2680C0A014DC2B51B4E009BB9DFD31B72.tmp' to '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/Autosaves/Game/Maps/init_Auto2.umap'
+[2019.05.07-23.27.36:083][682]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/init' took 0.041
+[2019.05.07-23.27.36:084][682]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.041
+[2019.05.07-23.27.36:085][682]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/init_BuiltData] ([1] browsable assets)...
+[2019.05.07-23.27.36:085][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/init_BuiltData]
+[2019.05.07-23.27.36:091][682]LogSavePackage: Moving '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/init_BuiltData_Auto2AD87280446A79527AB2FE98A6FEFD471.tmp' to '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/Autosaves/Game/Maps/init_BuiltData_Auto2.uasset'
+[2019.05.07-23.27.36:092][682]LogFileHelpers: Auto-saving content packages took 0.007
+[2019.05.07-23.27.44:756][799]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.28.40:560][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.28.40:711][546]LogSlate: Window 'earth_Icosphere' being destroyed
+[2019.05.07-23.28.40:792][546]LogSlate: Window 'earth_Icosphere' being destroyed
+[2019.05.07-23.28.42:697][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (earth_Icosphere)
+[2019.05.07-23.28.44:384][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.28.51:142][767]MapCheck: New page: 맵 체크
+[2019.05.07-23.28.51:199][767]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-23.28.51:199][767]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-23.28.51:234][767]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-23.28.51:239][767]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.28.51:239][767]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-23.28.51:245][767]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.28.51:245][767]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-23.28.51:250][767]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.28.51:250][767]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-23.28.51:255][767]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-23.28.51:261][767]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-23.28.51:758][767]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-23.28.51:758][767]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-23.28.51:758][767]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.28.51:758][767]TextureStreamingBuild: Display: Compiling optional shaders took 0.527 seconds.
+[2019.05.07-23.28.51:772][767]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-23.28.51:777][767]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2019.05.07-23.28.51:796][767]LightingResults: New page: 라이팅 빌드 - 07/05/2019 17:28:51
+[2019.05.07-23.28.51:801][767]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-23.28.51:802][767]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-23.28.51:802][767]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-23.28.51:803][767]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-23.28.51:803][767]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-23.28.56:311][767]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-23.28.56:311][767]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-23.28.56:311][767]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-23.28.56:311][767]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-23.28.56:311][767]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-23.28.56:311][767]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-23.28.56:442][767]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-23.28.56:442][767]MapCheck: New page: init - 07/05/2019 17:28:56
+[2019.05.07-23.28.56:493][767]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 51,421ms.
+[2019.05.07-23.28.56:516][767]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-23.28.57:906][801]Job is a success!
+[2019.05.07-23.28.57:955][802]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.28.57:995][802]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-23.28.57:995][802]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-23.28.57:995][802]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-23.28.57:995][802]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-23.28.57:995][802]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-23.28.57:995][802]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-23.28.57:995][802]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-23.28.58:007][802]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 64X64)
+[2019.05.07-23.28.58:007][802]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 64X64)
+[2019.05.07-23.28.58:007][802]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_16 (G8, 32X32)
+[2019.05.07-23.28.58:035][802]Lightmass on LABSOFT11: 728 ms total, 190 ms importing, 7 ms setup, 170 ms photons, 331 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.28 sec total, 128 ms processing.
+[2019.05.07-23.28.58:040][802]LogStaticLightingSystem: Illumination: 6.21 sec (4 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-23.28.58:040][802]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.05.07-23.28.58:040][802]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-23.28.58:316][802]DumpUnbuiltLightIteractions
+[2019.05.07-23.28.58:316][802]Lights with unbuilt interactions: 0
+[2019.05.07-23.28.58:316][802]
+[2019.05.07-23.28.58:316][802]Primitives with unbuilt interactions: 0
+[2019.05.07-23.28.58:320][802]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.28.58:451][803]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-23.28.58:452][803]MapCheck: New page: init - 07/05/2019 17:28:58
+[2019.05.07-23.28.58:508][803]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 56,46ms.
+[2019.05.07-23.30.11:473][644]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.30.38:042][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.30.56:115][708]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/earth_Icosphere.earth_Icosphere
+[2019.05.07-23.31.00:429][760]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.31.14:663][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.31.16:632][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.31.18:456][975]LogActorFactory: Actor Factory created earth_Icosphere_001
+[2019.05.07-23.31.19:885][994]LogActorFactory: Actor Factory created earth_Icosphere_001
+[2019.05.07-23.32.04:705][616]Cmd: DELETE
+[2019.05.07-23.32.04:705][616]Cmd: ACTOR DELETE
+[2019.05.07-23.32.04:712][616]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.07-23.32.04:778][616]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2019.05.07-23.32.17:697][699]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.32.27:288][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.33.03:080][333]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.07-23.33.03:895][344]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{1a6aeb67-90b2-4e42-a88b-89bf4aeec05f} was removed. Shutting down audio device.
+[2019.05.07-23.33.03:979][344]LogInit: XAudio2 using 'Realtek Digital Output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.07-23.33.10:877][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.33.50:486][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/earth_Icosphere" FILE="../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Content/earth_Icosphere.uasset" SILENT=true
+[2019.05.07-23.33.50:500][993]LogSavePackage: Moving '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/earth_IcosphereD44102A349D5ADB382D5D7A816345799.tmp' to '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Content/earth_Icosphere.uasset'
+[2019.05.07-23.33.52:769][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.33.52:835][ 30]LogSlate: Window 'earth_Icosphere' being destroyed
+[2019.05.07-23.33.56:951][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.33.58:691][165]MapCheck: New page: 맵 체크
+[2019.05.07-23.33.58:751][165]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-23.33.58:751][165]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-23.33.58:784][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-23.33.58:791][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-23.33.58:795][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-23.33.58:801][165]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-23.33.58:801][165]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.33.58:801][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-23.33.58:806][165]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.33.58:806][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-23.33.58:811][165]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-23.33.59:332][165]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-23.33.59:332][165]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-23.33.59:332][165]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.33.59:332][165]TextureStreamingBuild: Display: Compiling optional shaders took 0.550 seconds.
+[2019.05.07-23.33.59:346][165]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-23.33.59:350][165]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2019.05.07-23.33.59:369][165]LightingResults: New page: 라이팅 빌드 - 07/05/2019 17:33:59
+[2019.05.07-23.33.59:374][165]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-23.33.59:376][165]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-23.33.59:376][165]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-23.33.59:376][165]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-23.33.59:377][165]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-23.34.03:886][165]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-23.34.03:887][165]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-23.34.03:887][165]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-23.34.03:887][165]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-23.34.03:887][165]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-23.34.03:887][165]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-23.34.04:019][165]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-23.34.04:019][165]MapCheck: New page: init - 07/05/2019 17:34:04
+[2019.05.07-23.34.04:019][165]MapCheck: Error: WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2019.05.07-23.34.04:071][165]MapCheck: 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 52,157ms.
+[2019.05.07-23.34.04:094][165]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-23.34.04:102][165]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.34.05:981][209]Job is a success!
+[2019.05.07-23.34.06:098][210]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-23.34.06:098][210]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-23.34.06:098][210]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-23.34.06:098][210]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-23.34.06:098][210]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-23.34.06:098][210]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-23.34.06:099][210]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-23.34.06:202][210]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.05.07-23.34.06:202][210]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.05.07-23.34.06:202][210]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.05.07-23.34.06:202][210]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.05.07-23.34.06:202][210]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_17 (G8, 32X32)
+[2019.05.07-23.34.06:231][210]Lightmass on LABSOFT11: 1.37 sec total, 194 ms importing, 12 ms setup, 191 ms photons, 948 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 3.74 sec total, 734 ms processing.
+[2019.05.07-23.34.06:237][210]LogStaticLightingSystem: Illumination: 6.79 sec (88 ms encoding lightmaps, 2 ms encoding shadowmaps)
+[2019.05.07-23.34.06:237][210]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.05.07-23.34.06:237][210]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-23.34.06:891][210]DumpUnbuiltLightIteractions
+[2019.05.07-23.34.06:891][210]Lights with unbuilt interactions: 0
+[2019.05.07-23.34.06:891][210]
+[2019.05.07-23.34.06:891][210]Primitives with unbuilt interactions: 0
+[2019.05.07-23.34.06:896][210]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.34.07:027][211]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-23.34.07:027][211]MapCheck: New page: init - 07/05/2019 17:34:07
+[2019.05.07-23.34.07:085][211]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 58,741ms.
+[2019.05.07-23.34.13:611][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.34.13:700][423]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-23.34.13:736][423]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.07-23.34.24:569][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.34.27:937][706]MapCheck: New page: 맵 체크
+[2019.05.07-23.34.27:991][706]Cmd: MAP REBUILD ALLVISIBLE
+[2019.05.07-23.34.27:991][706]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.05.07-23.34.28:025][706]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.05.07-23.34.28:031][706]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Green, compiling. 
+[2019.05.07-23.34.28:036][706]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-23.34.28:036][706]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.34.28:036][706]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Blue, compiling. 
+[2019.05.07-23.34.28:041][706]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.34.28:042][706]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Snow, compiling. 
+[2019.05.07-23.34.28:047][706]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Brown, compiling. 
+[2019.05.07-23.34.28:052][706]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DarkGreen, compiling. 
+[2019.05.07-23.34.28:551][706]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.07-23.34.28:551][706]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.07-23.34.28:551][706]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.05.07-23.34.28:551][706]TextureStreamingBuild: Display: Compiling optional shaders took 0.529 seconds.
+[2019.05.07-23.34.28:565][706]LogLevel: Display: Export Material TexCoord Scales took 0.014 seconds.
+[2019.05.07-23.34.28:569][706]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2019.05.07-23.34.28:588][706]LightingResults: New page: 라이팅 빌드 - 07/05/2019 17:34:28
+[2019.05.07-23.34.28:593][706]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.05.07-23.34.28:594][706]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.05.07-23.34.28:595][706]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.05.07-23.34.28:595][706]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.05.07-23.34.28:595][706]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3836
+[2019.05.07-23.34.33:104][706]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.05.07-23.34.33:104][706]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.05.07-23.34.33:104][706]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.05.07-23.34.33:104][706]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.05.07-23.34.33:104][706]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.05.07-23.34.33:104][706]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.05.07-23.34.33:190][706]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.05.07-23.34.33:190][706]MapCheck: New page: init - 07/05/2019 17:34:33
+[2019.05.07-23.34.33:242][706]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 51,117ms.
+[2019.05.07-23.34.33:264][706]LogEditorBuildUtils: Build time 0:05
+[2019.05.07-23.34.34:572][739]Job is a success!
+[2019.05.07-23.34.34:643][740]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.34.34:672][740]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2019.05.07-23.34.34:672][740]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.05.07-23.34.34:672][740]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.05.07-23.34.34:672][740]LogVolumetricLightmapImport:      Bricks at Level
+[2019.05.07-23.34.34:672][740]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.05.07-23.34.34:672][740]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.05.07-23.34.34:672][740]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.05.07-23.34.34:685][740]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 64X64)
+[2019.05.07-23.34.34:685][740]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 64X64)
+[2019.05.07-23.34.34:685][740]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_18 (G8, 32X32)
+[2019.05.07-23.34.34:714][740]Lightmass on LABSOFT11: 704 ms total, 167 ms importing, 9 ms setup, 175 ms photons, 333 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.30 sec total, 130 ms processing.
+[2019.05.07-23.34.34:722][740]LogStaticLightingSystem: Illumination: 6.06 sec (4 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.05.07-23.34.34:722][740]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.05.07-23.34.34:722][740]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2019.05.07-23.34.35:107][740]DumpUnbuiltLightIteractions
+[2019.05.07-23.34.35:107][740]Lights with unbuilt interactions: 0
+[2019.05.07-23.34.35:107][740]
+[2019.05.07-23.34.35:107][740]Primitives with unbuilt interactions: 0
+[2019.05.07-23.34.35:110][740]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.34.35:235][741]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.05.07-23.34.35:235][741]MapCheck: New page: init - 07/05/2019 17:34:35
+[2019.05.07-23.34.35:292][741]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 57,156ms.
+[2019.05.07-23.35.04:592][663]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.35.31:582][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.35.44:079][838]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.35.50:113][ 21]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.35.51:042][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.35.54:355][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.35.55:652][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.35.57:567][249]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.35.59:122][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.36.01:764][375]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.07-23.36.23:256][858]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.37.28:419][835]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-23.37.31:835][838]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.07-23.37.31:844][838]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.07-23.37.31:941][838]LogSavePackage: Moving '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/initB0F98D33489459131A5A81A1B6D94979.tmp' to '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Content/Maps/init.umap'
+[2019.05.07-23.37.31:957][838]LogFileHelpers: Saving map 'init' took 0.110
+[2019.05.07-23.37.31:959][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/init_BuiltData" FILE="../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Content/Maps/init_BuiltData.uasset" SILENT=true
+[2019.05.07-23.37.31:966][838]LogSavePackage: Moving '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Saved/init_BuiltData914A3159403DA61EC5344A9CDFBFD02F.tmp' to '../../../../../../Users/aluno/Documents/Unreal Projects/pcs3539-project-diaspora/diaspora/Content/Maps/init_BuiltData.uasset'
+[2019.05.07-23.37.32:016][838]LogSlate: Window 'diaspora - 언리얼 에디터' being destroyed
+[2019.05.07-23.37.32:201][839]Cmd: QUIT_EDITOR
+[2019.05.07-23.37.32:582][839]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2019.05.07-23.37.32:592][839]LogExit: Preparing to exit.
+[2019.05.07-23.37.33:289][839]LogExit: Editor shut down
+[2019.05.07-23.37.33:290][839]LogExit: Transaction tracking system shut down
+[2019.05.07-23.37.33:963][839]LogExit: Object subsystem successfully closed.
+[2019.05.07-23.37.33:985][839]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.05.07-23.37.33:991][839]LogD3D11RHI: Shutdown
+[2019.05.07-23.37.33:991][839]LogD3D11RHI: CleanupD3DDevice
+[2019.05.07-23.37.34:017][839]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.05.07-23.37.34:034][839]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (620)
+[2019.05.07-23.37.34:034][839]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (618)
+[2019.05.07-23.37.34:034][839]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2019.05.07-23.37.34:034][839]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2019.05.07-23.37.34:034][839]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.05.07-23.37.34:034][839]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.05.07-23.37.34:034][839]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (600)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.05.07-23.37.34:037][839]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.05.07-23.37.34:038][839]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.05.07-23.37.34:039][839]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.05.07-23.37.35:161][839]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.05.07-23.37.35:161][839]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.05.07-23.37.35:161][839]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.05.07-23.37.35:161][839]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.05.07-23.37.35:161][839]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.05.07-23.37.35:162][839]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.05.07-23.37.35:225][839]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.05.07-23.37.35:225][839]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.05.07-23.37.35:225][839]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.05.07-23.37.35:225][839]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.05.07-23.37.35:225][839]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.05.07-23.37.35:225][839]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.05.07-23.37.35:225][839]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.05.07-23.37.35:225][839]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.05.07-23.37.35:225][839]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.05.07-23.37.35:225][839]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.05.07-23.37.35:226][839]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.05.07-23.37.35:227][839]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.05.07-23.37.35:227][839]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.05.07-23.37.35:227][839]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.05.07-23.37.35:227][839]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.05.07-23.37.35:227][839]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.05.07-23.37.35:227][839]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.05.07-23.37.35:266][839]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.05.07-23.37.35:267][839]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.05.07-23.37.35:267][839]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.05.07-23.37.35:267][839]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.05.07-23.37.35:267][839]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.05.07-23.37.35:270][839]LogModuleManager: Shutting down and abandoning module Media (363)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module HTML5Networking (360)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (358)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (356)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module BackChannel (354)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module AppleVision (352)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module AppleImageUtils (350)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module AlembicImporter (348)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module AlembicLibrary (347)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module GeometryCache (346)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (345)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.05.07-23.37.35:276][839]LogModuleManager: Shutting down and abandoning module DatasmithContent (338)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (336)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module PluginBrowser (334)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (332)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module PolygonModeling (330)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module MeshEditor (328)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (326)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module CryptoKeys (324)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (322)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (320)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module UObjectPlugin (318)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (316)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (314)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module GitSourceControl (312)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module SourceControl (311)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (308)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (296)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (294)
+[2019.05.07-23.37.35:277][839]LogModuleManager: Shutting down and abandoning module PhysXVehicles (292)
+[2019.05.07-23.37.35:278][839]LogModuleManager: Shutting down and abandoning module OculusEditor (290)
+[2019.05.07-23.37.35:278][839]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
+[2019.05.07-23.37.35:278][839]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (286)
+[2019.05.07-23.37.35:278][839]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (284)
+[2019.05.07-23.37.35:278][839]LogModuleManager: Shutting down and abandoning module ActorSequence (282)
+[2019.05.07-23.37.35:278][839]LogModuleManager: Shutting down and abandoning module UdpMessaging (280)
+[2019.05.07-23.37.35:378][839]LogModuleManager: Shutting down and abandoning module TcpMessaging (278)
+[2019.05.07-23.37.35:479][839]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (276)
+[2019.05.07-23.37.35:479][839]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (274)
+[2019.05.07-23.37.35:479][839]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (272)
+[2019.05.07-23.37.35:479][839]LogModuleManager: Shutting down and abandoning module FacialAnimation (270)
+[2019.05.07-23.37.35:479][839]LogModuleManager: Shutting down and abandoning module DataValidation (268)
+[2019.05.07-23.37.35:479][839]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (266)
+[2019.05.07-23.37.35:479][839]LogModuleManager: Shutting down and abandoning module LevelEditor (265)
+[2019.05.07-23.37.35:480][839]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (264)
+[2019.05.07-23.37.35:480][839]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (262)
+[2019.05.07-23.37.35:480][839]LogModuleManager: Shutting down and abandoning module MainFrame (260)
+[2019.05.07-23.37.35:480][839]LogModuleManager: Shutting down and abandoning module HotReload (259)
+[2019.05.07-23.37.35:480][839]LogModuleManager: Shutting down and abandoning module ContentBrowser (255)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module TreeMap (253)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (250)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module AISupportModule (248)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module Paper2D (246)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (244)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.05.07-23.37.35:482][839]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.05.07-23.37.35:483][839]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.05.07-23.37.35:483][839]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.05.07-23.37.35:483][839]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.05.07-23.37.35:483][839]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.05.07-23.37.35:483][839]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.05.07-23.37.35:483][839]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.05.07-23.37.35:483][839]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.05.07-23.37.35:485][839]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.05.07-23.37.35:486][839]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.05.07-23.37.35:530][839]LogDerivedDataCache: Shutdown
+[2019.05.07-23.37.35:530][839]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.05.07-23.37.35:530][839]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.05.07-23.37.35:530][839]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.05.07-23.37.35:530][839]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.05.07-23.37.35:530][839]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.05.07-23.37.35:531][839]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.05.07-23.37.35:533][839]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.05.07-23.37.35:533][839]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.05.07-23.37.35:535][839]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.05.07-23.37.35:535][839]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.05.07-23.37.35:557][839]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.05.07-23.37.35:557][839]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.05.07-23.37.35:557][839]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.05.07-23.37.35:557][839]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.05.07-23.37.35:557][839]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.05.07-23.37.35:557][839]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.05.07-23.37.35:557][839]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.05.07-23.37.35:558][839]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.05.07-23.37.35:558][839]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.05.07-23.37.35:558][839]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.05.07-23.37.35:558][839]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.05.07-23.37.35:558][839]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.05.07-23.37.35:558][839]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.05.07-23.37.35:558][839]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.05.07-23.37.35:558][839]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.05.07-23.37.35:558][839]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.05.07-23.37.35:558][839]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.05.07-23.37.35:558][839]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.05.07-23.37.35:559][839]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.05.07-23.37.35:559][839]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.05.07-23.37.35:588][839]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.05.07-23.37.35:588][839]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.05.07-23.37.35:588][839]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BABA9A0D2-44E5-CC52-F2BF-C7A4E7E05734%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=6f9dab6a4e64e360bab76dacf478323f%7Cf434948247df46518ff7b99d0215074b%7Cb2802b11-6531-4fb8-a7bb-0b6c8add3e4c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.05.07-23.37.35:607][839]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.05.07-23.37.35:608][839]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.05.07-23.37.35:608][839]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.05.07-23.37.35:608][839]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.05.07-23.37.35:608][839]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.05.07-23.37.35:608][839]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.05.07-23.37.35:608][839]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.05.07-23.37.35:608][839]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.05.07-23.37.35:608][839]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.05.07-23.37.35:608][839]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.05.07-23.37.35:609][839]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.05.07-23.37.35:609][839]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.05.07-23.37.35:609][839]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.05.07-23.37.35:609][839]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.05.07-23.37.35:609][839]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.05.07-23.37.35:609][839]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.05.07-23.37.35:609][839]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.05.07-23.37.35:609][839]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.05.07-23.37.35:609][839]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.05.07-23.37.35:612][839]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.05.07-23.37.35:612][839]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.05.07-23.37.35:612][839]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.05.07-23.37.35:612][839]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.05.07-23.37.35:612][839]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.05.07-23.37.35:612][839]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.05.07-23.37.35:612][839]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.05.07-23.37.35:612][839]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.05.07-23.37.35:612][839]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.05.07-23.37.35:612][839]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.05.07-23.37.35:612][839]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.05.07-23.37.35:616][839]LogExit: Exiting.
+[2019.05.07-23.37.35:628][839]Log file closed, 05/07/19 20:37:35
